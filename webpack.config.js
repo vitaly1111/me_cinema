@@ -1,12 +1,10 @@
 const path=require('path')
 
-module.exports = {
-	
+module.exports={
+
 	mode: 'development',
-		entry: {
+	entry: {
 		main: './src/js/main.js'
-		
-			
 	},
 	output: {
 		filename: '[name].js'
