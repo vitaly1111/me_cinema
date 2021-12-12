@@ -5,6 +5,8 @@ import "regenerator-runtime/runtime";  */
 import { slideMenu } from "./modules/menu"
 import { renderVideo} from './modules/renderVideos'
 
+import { menuLink } from "./modules/menuLincs";
+
 
 const burgerBtn=document.querySelector('.header__burger-btn');
 const menu=document.querySelector('.navigation')
@@ -18,6 +20,7 @@ slideMenu({
 })
 
 renderVideo();
+menuLink();
 
 /* 
 burgerBtn,menu,'navigation_active','.navigation__link, .navigation__close'
